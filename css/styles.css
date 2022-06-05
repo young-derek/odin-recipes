@@ -1,0 +1,55 @@
+* {
+    color: rgb(206, 137, 9);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.list--no-style {
+    list-style: none;
+}
+
+li {
+    text-align: left;
+    font-size: 1.4em;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    background-color: white;
+}
+
+li a:hover {
+    background-color: rgb(173, 230, 253);
+}
+
+ul ul,
+ol ol {
+    font-size: .8em;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    border-bottom: 2px solid;
+    background-color: rgb(173, 230, 253);
+}
+
+h2 {
+    text-align: left;
+    font-size: 2em;
+}
+
+p {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.image--full-width {
+    width: 100%;
+}
